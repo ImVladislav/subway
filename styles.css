@@ -196,6 +196,11 @@ canvas {
    .progress-text {
       font-size: 5px;
    }
+
+   .progress-bar {
+      margin-top: -20px;
+   }
+      
 }
 @media screen and (min-width: 1025px) {
    .progress-text {
