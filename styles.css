@@ -39,6 +39,7 @@ html {
   overflow: hidden;
   position: relative;
   z-index: 0;
+
 }
 
 canvas {
@@ -369,7 +370,7 @@ canvas {
 
          background: url('./bg.png') no-repeat center center;
          background-size: cover;
-
+min-height: 100vh;
  }
  
  .container {
