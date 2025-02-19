@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>$FARTBRO </title>
+   <link rel="stylesheet" href="styles.css" />
+   <!-- Підключення CSS -->
+   <link rel="icon" href="Logo.png" type="image/png" />
+   <!-- Додавання фавіконки -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+   <div class="container">
+      <div class="header">
+         <!-- <img src="ico7.png" alt="Logo" class="main-logo" /> -->
+         <img src="logo.png" alt="Ignite" class="title" />
+         <!-- <p class="title">$FARTBRO </p> -->
+         <p class="slogan">
+            <!-- <span>WORK</span>
+               <span>HARD,</span>
+               <span>PLAY</span>
+               <span>HARD</span> -->
+         </p>
+      </div>
+
+      <img src="Pers.gif" alt="Icon 3" />
+
+      <div class="progress-bar">
+         <div class="progress-text" id="progressText">
+            XXXXXXXXX
+         </div>
+      </div>
+
+
+      <div class="icons">
+         <!-- <a href="https://www.dextools.io/app/en/solana/pair-explorer/xxxxxxxxx
+            " target="_blank">
+            <img src="ico1.png" alt="Icon 1" />
+         </a> -->
+         <a href="https://dexscreener.com/solana/nNBmnjP28o9JCTGH5PmPfN4L81x3R3Vkku7u8Hk3UAE" target="_blank">
+            <img src="ico2.png" alt="Icon 2" />
+
+            <a href="https://t.me/BroccoliFartSol" target="_blank">
+               <img src="ico3.png" alt="Icon 4" />
+            </a>
+
+            <a href="https://x.com/BroccoliFartSol" , target="_blank">
+               <img src="ico4.png" alt="Icon 5" />
+            </a>
+
+      </div>
+
+
+
+   </div>
+   <!-- <canvas id="canvas"></canvas> -->
+   <script>
+      document
+         .getElementById('progressText')
+         .addEventListener('click', function () {
+            const textToCopy = this.textContent;
+            navigator.clipboard
+               .writeText(textToCopy)
+               .then(() => {
+                  alert('Text copied to clipboard!');
+               })
+               .catch((err) => {
+                  console.error('Failed to copy text: ', err);
+               });
+         });
+   </script>
+   <script src="index.js"></script>
+</body>
+
+</html>
